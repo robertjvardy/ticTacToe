@@ -1,0 +1,25 @@
+.cell {
+  background-color: white;
+  display: inline-block;
+  color: black;
+  &:hover {
+    background-color: #61dafb;
+  }
+
+  &.middle-column {
+    border-left: 6px solid #282c34;
+    border-right: 6px solid #282c34;
+  }
+
+  &.icon {
+    width: 9rem;
+    height: 9rem;
+    padding: 1rem;
+    &.empty {
+      color: white;
+      &:hover {
+        color: #61dafb;
+      }
+    }
+  }
+}

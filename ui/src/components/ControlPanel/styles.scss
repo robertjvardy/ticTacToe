@@ -1,0 +1,18 @@
+#control-panel-container {
+  padding: 0.5rem;
+  min-width: 30rem;
+  #control-panel-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10rem;
+
+    #loss {
+      color: red;
+    }
+    #win {
+      color: #30f04a;
+    }
+  }
+}
